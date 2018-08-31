@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="functions.js"></script>
+    <title>FFHS WebG A01</title>
+</head>
+<body>
+
+    <p><input  type="text" title="reverseStringInput" id="reverseStringInput" />
+    <button onclick="document.getElementById('reverseWrite').innerHTML=reverseString(document.getElementById('reverseStringInput').value)">Reverse</button></p>
+    <p id="reverseWrite"></p>
+    <!--<p><script type="text/javascript">document.write(reverseString("Hallo"))</script></p>-->
+    <p><input  type="text" title="leapYear" id="leapYearInput" />
+    <button onclick="document.getElementById('leapYearWrite').innerHTML=leapYear(document.getElementById('leapYearInput').value)">leap year</button></p>
+    <p id="leapYearWrite"></p>
+    <p><input  type="text" title="pangram" id="pangramInput" />
+        <button onclick="document.getElementById('pangramWrite').innerHTML=isPangram(document.getElementById('pangramInput').value)">Check for pangram</button></p>
+    <p id="pangramWrite"></p>
+</body>
+</html>
